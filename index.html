@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="head">
+            <input type="text" id="inputnumber" disabled>
+        </div>
+        <div id="but">
+            <button id="twozero" onclick="pressOpen()" style="background-color: rgb(226, 175, 80);">( </button>
+            <button id="percent" onclick="pressClose()" style="background-color: rgb(226, 175, 80);">)</button>
+            <button id="delete" onclick="back()" style="background-color: rgb(102, 101, 101);">DE</button>
+            <button id="divide" onclick="slash()" style="background-color: orange; font-size: 20px;">/</button>
+            <button id="seven" onclick="seventh()">7</button>
+            <button id="eight" onclick="eighteen()">8</button>
+            <button id="nine" onclick="nineth()">9</button>
+            <button id="multiply" onclick="multiplication()" style="background-color: orange; font-size: 20px;">*</button>
+            <button id="four" onclick="fourth()">4</button>
+            <button id="five" onclick="fifth()">5</button>
+            <button id="six" onclick="sixth()">6</button>
+            <button id="minus" onclick="sub()" style="background-color: orange; font-size: 20px;">-</button>
+            <button id="one" onclick="first()">1</button>
+            <button id="two" onclick="second()">2</button>
+            <button id="three" onclick="third()">3</button>
+            <button id="plus" onclick="addition()" style="background-color: orange; font-size: 20px;">+</button>
+            <button id="clear" onclick="pressClear()" style="background-color: rgb(102, 101, 101);">AC</button>
+            <button id="zero" onclick="zeroo()">0</button>
+            <button id="point" onclick="dot()">.</button>
+            <button id="equal" onclick="equalizar()" style="background-color: orange; font-size: 20px;">=</button>
+        </div>
+    </div>
+
+    <script src="cal.js"></script>
+</body>
+</html>
