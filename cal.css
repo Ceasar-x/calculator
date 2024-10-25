@@ -1,5 +1,5 @@
 
-#calculator{
+#solve{
     height: 450px;
     width: 25%;
     border: 1px solid black;
@@ -196,9 +196,15 @@
     border-radius: 50px;
     border: none;
 }
-@media screen and (max-width: 320px) {
-    #calculator{
-        height: 722px;
+
+
+@media screen and (max-width: 500px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+    #solve{
+        height: 100%;
         width: 100%;
         margin-top: 0%;
     }
@@ -206,93 +212,14 @@
         height: 30%;
     }
     #but button{
-        width: 21%;
-        height: 14%;
-        margin-left: 2.5%;
-        margin-top: 7%;
+        width: 20%;
+        height: 13%;
+        margin-left: 2.7%;
+        margin-top: 8%;
+        font-size: 27px;
     }
     #head input{
         font-size: 40px;
-    }
-    
-}
-@media screen and (max-width: 360px) {
-    #calculator{
-        height: 722px;
-        width: 100%;
-        margin-top: 0%;
-    }
-    #head{
-        height:25%;
-    }
-    #but button{
-        width: 21%;
-        height: 14%;
-        margin-left: 2.5%;
-        margin-top: 8%;
-    }
-    #head input{
-        font-size: 30px;
-    }
-    
-}
-@media screen and (max-width: 390px) {
-    #calculator{
-        height: 825px;
-        width: 100%;
-        margin-top: 0%;
-    }
-    #head{
-        height:25%;
-    }
-    #but button{
-        width: 21%;
-        height: 14%;
-        margin-left: 2.5%;
-        margin-top: 8%;
-    }
-    #head input{
-        font-size: 30px;
-    }
-    
-}
-@media screen and (max-width: 430px) {
-    #calculator{
-        height: 913px;
-        width: 100%;
-        margin-top: 0%;
-    }
-    #head{
-        height:25%;
-    }
-    #but button{
-        width: 21%;
-        height: 14%;
-        margin-left: 2.5%;
-        margin-top: 8%;
-    }
-    #head input{
-        font-size: 30px;
-    }
-    
-}
-@media screen and (max-width: 412px) {
-    #calculator{
-        height: 897px;
-        width: 100%;
-        margin-top: 0%;
-    }
-    #head{
-        height:25%;
-    }
-    #but button{
-        width: 21%;
-        height: 14%;
-        margin-left: 2.5%;
-        margin-top: 8%;
-    }
-    #head input{
-        font-size: 30px;
     }
     
 }
